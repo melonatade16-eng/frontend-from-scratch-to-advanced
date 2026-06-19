@@ -1,0 +1,32 @@
+
+body {
+
+    background-color: #f4f4f4;
+}
+
+.team-section {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.team-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    flex: 1;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .team-container {
+        flex-direction: column;
+    }
+}
