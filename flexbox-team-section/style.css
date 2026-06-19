@@ -1,0 +1,30 @@
+body{
+    background-color: #ddd0d0;
+    margin: auto;
+}
+.team container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius:15px;
+    
+}
+.card h1{
+    color: #333;
+    margin-bottom: 10px;
+}
+.card h2{
+    color: #8b5e3c;
+    margin-bottom: 15px;
+
+}
+.card p{
+    color: #666;
+}
